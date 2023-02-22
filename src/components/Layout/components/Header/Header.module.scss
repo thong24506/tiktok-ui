@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--default-layout-header-height, 60px);
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    max-width: var(--default-layout-with, 1150px);
+}
